@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+  <Cost>
+    <Population>1</Population>
+	<BuildTime>2</BuildTime>
+    <Resources>
+      <food>30</food>
+	  <wood>30</wood>
+	  <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <RegenRate>-1</RegenRate>
+	<Max op="mul">0.5</Max>
+  </Health>
+  <Identity>
+    <Civ>sueb</Civ>
+    <SpecificName>Suebian Militia Clubman</SpecificName>
+    <GenericName>Club Infantry</GenericName>
+	<VisibleClasses datatype="tokens">Guerilla Club</VisibleClasses>
+    <Tooltip>Traits: Fast Training, Fast Speed, Low Armor, Medium Attack, Short Lifespan.
+Strong Against: Nothing.
+Weak Against: Archer Infantry, Slinger Infantry, Archer Cavalry.</Tooltip>
+    <Icon>units/sueb/infantry_clubman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">-1</Hack>
+        <Pierce op="add">-1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/suebians/infantry_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/sueb_player_teambonus
+  </Auras>
+  <Identity>
+    <Civ>sueb</Civ>
+    <GenericName>Suebian Germans</GenericName>
+    <History>Believed to be a multi-ethnic group, united in their desire to escape the Germanic frontier and settle within former Roman borders.</History>
+    <Icon>emblems/emblem_suebians.png</Icon>
+  </Identity>
+</Entity>

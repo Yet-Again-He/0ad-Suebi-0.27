@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+	  { "value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5 },
+	],
+	"auraName": "Hunting Grounds",
+	"auraDescription": "All allied soldiers +50% meat gathering speed.",
+}

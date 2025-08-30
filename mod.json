@@ -1,0 +1,12 @@
+{
+	"name": "0ad-Suebi",
+	"label": "0ad-Suebi",
+	"version": "0.27.1",
+	"url": "",
+	"description": "0 A.D. faction mod, adding the Suebi from the Delenda Est mod as a standard faction into vanilla gameplay.",
+	"dependencies": [
+		"0ad=0.27.0"
+	],
+	"dependencies": ["0ad=0.27.0"],
+	"type": ["Factions"]
+}

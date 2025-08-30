@@ -1,0 +1,16 @@
+{
+	"genericName": "Raid Team",
+	"description": "Increases movement rate of battering rams.",
+	"cost": {"food": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "pull_team.png",
+	"researchTime": 40,
+	"tooltip": "Battering Rams +25% Walk Speed, -5% Health.",
+	"modifications": [
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.25},
+		{"value": "Health/Max", "multiply": 0.95}
+	],
+	"affects": ["Siege Ram"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,13 @@
+{
+	"genericName": "Draft Animals",
+	"description": "Using draft animals cuts down resource harvesting time considerably.",
+	"cost": {"food": 300, "wood": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "oxen.png",
+	"researchTime": 40,
+	"tooltip": "Gatherers +10% gather rate for all resources.",
+	"modifications": [{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.1}],
+	"affects": ["Gatherer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
