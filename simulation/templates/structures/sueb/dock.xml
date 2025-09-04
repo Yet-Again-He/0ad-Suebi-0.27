@@ -14,12 +14,6 @@
   <Obstruction>
     <Static width="10.0" depth="22.0"/>
   </Obstruction>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/merc_infantry_1 
-	  units/{civ}/merc_infantry_2
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/britons/dock.xml</Actor>
     <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
