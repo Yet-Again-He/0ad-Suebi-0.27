@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_resource_corral">
+<Entity parent="template_structure_economic_farmstead">
   <Auras datatype="tokens">
 	structures/slaughterhouse
   </Auras>
@@ -7,6 +7,14 @@
     <Square width="22" depth="22"/>
     <Height>8.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>8</Max>
+    <EjectHealth>0.5</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Animal</EjectClassesOnDestroy>
+    <List datatype="tokens">Animal</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>4</LoadingRange>
+  </GarrisonHolder>
   <Identity>
     <Civ>sueb</Civ>
     <SpecificName>Kurnahūsą</SpecificName>
@@ -19,16 +27,19 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-	    gather_draft_animals
-      gather_farming_plows
-      gather_farming_training
-      gather_farming_fertilizer
-      gather_farming_seed_drill
-      gather_farming_water_weeding
-      gather_farming_chain_pump
-      gather_farming_harvester
+	  gather_draft_animals
+      gather_animals_stockbreeding
     </Technologies>
   </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_goat_trainable
+      gaia/fauna_sheep_trainable
+      gaia/fauna_pig_trainable
+      gaia/fauna_cattle_cow_trainable
+    </Entities>
+  </Trainer>
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
     <Actor>structures/germans/corral.xml</Actor>
