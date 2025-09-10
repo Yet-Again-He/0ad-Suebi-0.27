@@ -7,7 +7,7 @@
   <Identity>
     <Civ>sueb</Civ>
     <SpecificName>Warīnīz Staupilaz</SpecificName>
-    <SelectionGroupName>structures/gaul/defense_tower</SelectionGroupName>
+    <SelectionGroupName>structures/sueb/defense_tower</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="10" depth="10"/>

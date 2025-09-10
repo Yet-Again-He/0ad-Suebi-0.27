@@ -7,22 +7,26 @@
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Outfit Basic Pants 1">
+    <variant frequency="1" name="tunic_pants_01_01">
       <textures>
-        <texture file="skeletal/germans/basic/transparent_pants1.png" name="baseTex"/>
+        <texture file="skeletal/germ/tunic_pants_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Outfit Basic Pants 2">
+    <variant frequency="1" name="tunic_pants_01_02">
       <textures>
-        <texture file="skeletal/germans/basic/transparent_pants2.png" name="baseTex"/>
+        <texture file="skeletal/germ/tunic_pants_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Outfit Basic Pants 3">
+    <variant frequency="1" name="tunic_pants_01_03">
       <textures>
-        <texture file="skeletal/germans/basic/transparent_pants3.png" name="baseTex"/>
+        <texture file="skeletal/germ/tunic_pants_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -61,5 +65,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -7,32 +7,51 @@
       <props>
         <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Dress A 01">
+    <variant frequency="2" name="dress_female_01_01">
       <textures>
-        <texture file="skeletal/germans/female/a_01.png" name="baseTex"/>
+        <texture file="skeletal/germ/dress_female_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Dress A 02">
+    <variant frequency="2" name="dress_female_01_02">
       <textures>
-        <texture file="skeletal/germans/female/a_02.png" name="baseTex"/>
+        <texture file="skeletal/germ/dress_female_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Dress A 03">
+    <variant frequency="2" name="dress_female_01_03">
       <textures>
-        <texture file="skeletal/germans/female/a_03.png" name="baseTex"/>
+        <texture file="skeletal/germ/dress_female_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Dress A 04">
+    <variant frequency="1" name="dress_female_01_04">
       <textures>
-        <texture file="skeletal/germans/female/a_04.png" name="baseTex"/>
+        <texture file="skeletal/germ/dress_female_01_04.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Dress A 05">
+    <variant frequency="1" name="dress_female_01_05">
       <textures>
-        <texture file="skeletal/germans/female/a_05.png" name="baseTex"/>
+        <texture file="skeletal/germ/dress_female_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="dress_female_02_01">
+      <textures>
+        <texture file="skeletal/germ/dress_female_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="dress_female_02_02">
+      <textures>
+        <texture file="skeletal/germ/dress_female_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="dress_female_02_03">
+      <textures>
+        <texture file="skeletal/germ/dress_female_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -53,7 +72,7 @@
     <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant name="Idle" frequency="1"/>
     <variant file="biped/attack_melee_female.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml"/>
@@ -67,14 +86,7 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/female_build.xml"/>
     <variant file="biped/female_build_farm.xml"/>
-  </group>
-  <group>
-    <variant>
-      <textures>
-        <texture file="default_norm.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
-      </textures>
-    </variant>
+    <variant file="biped/female_death.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>
