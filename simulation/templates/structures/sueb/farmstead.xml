@@ -9,7 +9,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <List datatype="tokens">Slave Minister Civilian+Citizen Domestic</List>
+    <List datatype="tokens">Civilian+Citizen Domestic</List>
   </GarrisonHolder>
   <Identity>
     <Civ>sueb</Civ>
@@ -23,9 +23,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      training_animals_husbandry
       gather_draft_animals
-      training_animals_stockbreeding
     </Technologies>
   </Researcher>
   <Trainer>

@@ -54,7 +54,7 @@
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_slinger_b
       units/{civ}/support_wagon
-	</Entities>
+	  </Entities>
   </Trainer>
   <Researcher>
     <Technologies datatype="tokens">

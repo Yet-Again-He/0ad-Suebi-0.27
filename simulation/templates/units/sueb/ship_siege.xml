@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Auras datatype="tokens">
-    units/heroes/iber_hero_viriato_1
+    units/heroes/sueb_hero_arminius
   </Auras>
   <Cost>
     <BuildTime>10</BuildTime>
@@ -13,20 +13,8 @@
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>11.0</WalkSpeed>
+    <WalkSpeed>12.0</WalkSpeed>
   </UnitMotion>
-  <Upgrade>
-    <Mount>
-      <Entity>units/sueb/merc_hero_arminius_mounted</Entity>
-      <Tooltip>This gives Arminius his War Horse, with trample effects and greater health.</Tooltip>
-	  <RequiredTechnology>phase_city</RequiredTechnology>
-      <Cost>
-        <food>200</food>
-        <metal>100</metal>
-      </Cost>
-      <Time>10</Time>
-    </Mount>
-  </Upgrade>
   <VisualActor>
     <Actor>units/suebians/hero_infantry_swordsman_arminius.xml</Actor>
   </VisualActor>

@@ -1,7 +1,7 @@
 {
 	"genericName": "Fatherland",
 	"autoResearch": true,
-	"description": "Germanic warriors were known for their enormous size and their wedge charging formation for crushing enemy ranks.",
+	"description": "Germanic warriors were known for their enormous size and their wedge formation for crushing enemy ranks.",
 	"icon": "woad_warriors.png",
 	"tooltip": "All soldiers +2 crush damage.",
 	"requirements": { "civ": "sueb" },

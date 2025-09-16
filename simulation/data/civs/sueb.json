@@ -21,9 +21,24 @@
 	],
 	"CivBonuses": [
 		{
-			"Name": "Hunting Grounds",
-			"History": "Living inside the largest primeval forests of Europe, the Suebi had access to abundant wildlife to supplement their diet.",
-			"Description": "+20% meat gathering speed."
+			"Name": "Bovine Tradition",
+			"History": "German convoys brought livestock, in particular cattle, and placed great importance on these animals for religious sacrifices.",
+			"Description": "+100% meat gathering speed."
+		},
+		{
+			"Name": "Cimbrian Women",
+			"History": "Women and children accompanied the Germanic armies on long-range migrations.",
+			"Description": "+0.5 movement speed."
+		},
+		{
+			"Name": "Fatherland",
+			"History": "Germanic warriors were known for their enormous size and their wedge formation for crushing enemy ranks.",
+			"Description": "All soldiers +2 crush damage."
+		},
+		{
+			"Name": "Wooden Walls",
+			"History": "The Germans built their city walls out of wood, an abundant natural resource in the lands East of the Rhine. Consequently, German city walls have −40% health, but also −40% build time.",
+			"Description": "-40% health but -40% buildtime for german walls."
 		}
 	],
 	"WallSets": [

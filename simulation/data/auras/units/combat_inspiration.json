@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 30,
+	"affects": ["Soldier"],
+	"modifications": [
+	    {"value": "Attack/Melee/RepeatTime", "multiply": 0.95 },
+	    {"value": "Attack/Ranged/RepeatTime", "multiply": 0.95 },
+		{ "value": "Promotion/RequiredXp", "multiply": 0.9 }
+	],
+	"auraName": "Combat Inspiration",
+	"auraDescription": "All Soldiers in range +5% attack speed and −10% experience points for promotion.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

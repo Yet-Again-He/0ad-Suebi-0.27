@@ -4,7 +4,6 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/field
-      structures/{civ}/field_cash_crops
     </Entities>
   </Builder>
   <Identity>
@@ -15,8 +14,8 @@
   </Population>
   <Researcher>
     <Technologies datatype="tokens">
-	  gather_capacity_wheelbarrow
-	  gather_capacity_carts
+	    gather_capacity_wheelbarrow
+	    gather_capacity_carts
     </Technologies>
   </Researcher>
 </Entity>

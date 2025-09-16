@@ -18,6 +18,9 @@
     <SpecificName>Wolf Warrior</SpecificName>
 	<VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
     <Icon>units/sueb/champion_infantry_axeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>
