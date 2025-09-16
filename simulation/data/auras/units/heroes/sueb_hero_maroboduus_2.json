@@ -1,13 +1,9 @@
 {
-	"type": "range",
-	"radius": 20,
-	"affects": ["Guerilla"],
-	"affectedPlayers": ["Enemy"],
+	"type": "global",
+	"affects": ["CitizenSoldier", "Siege"],
 	"modifications": [
-	  {"value": "Attack/Ranged/Pierce", "multiply": 1.2},
-	  {"value": "Attack/Melee/Hack", "multiply": 1.2}
+		{ "value": "Looter/Resource/metal", "add": 30 }
 	],
-	"auraName": "Guerilla Warfare",
-	"auraDescription": "+20% attack for all soldiers with \"Guerilla\" class.",
-	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+	"auraName": "Independent Pride I",
+	"auraDescription": "Citizen Soldiers and Siege units gain +30 metal loot."
 }

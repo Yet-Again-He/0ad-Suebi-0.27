@@ -24,13 +24,10 @@
     <SpecificName>Kuningashallō</SpecificName>
     <Tooltip>Train Champions and Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
-    <Requirements>
-      <Techs datatype="tokens">
-        -phase_city
-        phase_town
-      </Techs>
-    </Requirements>
     <Icon>structures/syssition.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <stone>40</stone>
@@ -54,7 +51,7 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_axeman
+      units/{civ}/champion_infantry
       units/{civ}/champion_cavalry
       units/{civ}/siege_ram
       units/{civ}/hero_ariovistus_mounted
