@@ -1,9 +1,0 @@
-{
-	"type": "global",
-	"affects": ["Mercenary"],
-	"modifications": [
-		{ "value": "Cost/BuildTime", "multiply": 1.1 }
-	],
-	"auraName": "Independent Pride II",
-	"auraDescription": "Mercenaries take 10% longer to train."
-}

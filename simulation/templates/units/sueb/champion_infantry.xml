@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Auras datatype="tokens">
+    units/chief_guard
     units/combat_inspiration
   </Auras>
+  <Cost>
+    <BuildTime op="mul">1.25</BuildTime>
+    <Resources>
+      <food op="add">60</food>
+      <metal op="add">20</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>sueb</Civ>
     <SpecificName>Chieftain's Guard</SpecificName>
@@ -10,6 +18,9 @@
     <History>These men are veteran soldiers who offer their lives in service to their German chieftains.</History>
     <Icon>units/sueb/champion_infantry_swordsman.png</Icon>
   </Identity>
+  <TrainingRestrictions>
+    <Category>Centurion</Category>
+  </TrainingRestrictions>
   <VisualActor>
     <Actor>units/suebians/infantry_swordsman_c.xml</Actor>
   </VisualActor>

@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 30,
+	"affects": ["Hero"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 1 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 1 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 1 }
+	],
+	"auraName": "Chieftain's Shields",
+	"auraDescription": "Player's Hero +1 hack/pierce/crush resistance for every guard around him.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+	"stackable": true
+}

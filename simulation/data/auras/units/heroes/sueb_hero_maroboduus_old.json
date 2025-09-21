@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["CitizenSoldier", "Siege"],
+	"modifications": [
+		{ "value": "Looter/Resource/metal", "add": 30 }
+	],
+	"auraName": "Independent Pride I",
+	"auraDescription": "Citizen Soldiers and Siege units gain +30 metal loot."
+}

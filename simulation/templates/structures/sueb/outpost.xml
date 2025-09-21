@@ -3,9 +3,9 @@
   <Identity>
     <Civ>sueb</Civ>
     <GenericName>Suebi Outpost</GenericName>
-	<SpecificName>Staupilaz</SpecificName>
+	  <SpecificName>Staupilaz</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/germans/outpost.xml</Actor>
+    <Actor>structures/celts/outpost.xml</Actor>
   </VisualActor>
 </Entity>

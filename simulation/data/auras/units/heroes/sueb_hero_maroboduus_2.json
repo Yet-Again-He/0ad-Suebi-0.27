@@ -1,9 +1,10 @@
 {
-	"type": "global",
-	"affects": ["CitizenSoldier", "Siege"],
+    "type": "range",
+    "radius": 60,
+	"affects": ["Structure"],
 	"modifications": [
-		{ "value": "Looter/Resource/metal", "add": 30 }
+		{ "value": "Cost/BuildTime", "multiply": 0.5}
 	],
-	"auraName": "Independent Pride I",
-	"auraDescription": "Citizen Soldiers and Siege units gain +30 metal loot."
+	"auraName": "Settler",
+	"auraDescription": "Buildings are constructed twice as fast while under his influence."
 }

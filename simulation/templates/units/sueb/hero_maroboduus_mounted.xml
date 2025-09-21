@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras datatype="tokens">
-    units/heroes/iber_hero_viriato_1
-    units/heroes/sueb_hero_maroboduus
+    units/heroes/sueb_hero_maroboduus_1
+    units/heroes/sueb_hero_maroboduus_2
   </Auras>
   <Identity>
     <Civ>sueb</Civ>
