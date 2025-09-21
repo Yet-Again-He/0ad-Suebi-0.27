@@ -7,6 +7,11 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archer_attack_spread
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/germans/forge.xml</Actor>
   </VisualActor>

@@ -3,10 +3,10 @@
 	"autoResearch": true,
 	"description": "Germanic warriors were known for their enormous size and their wedge formation for crushing enemy ranks.",
 	"icon": "woad_warriors.png",
-	"tooltip": "All soldiers +2 crush damage.",
+	"tooltip": "All soldiers +1 crush damage.",
 	"requirements": { "civ": "sueb" },
 	"modifications": [
-		{ "value": "Attack/Ranged/Damage/Crush", "add": 2 }
+		{ "value": "Attack/Ranged/Damage/Crush", "add": 1 }
 	],
 	"affects": ["Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

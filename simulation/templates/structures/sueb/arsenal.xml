@@ -4,6 +4,13 @@
     <Civ>sueb</Civ>
     <SpecificName>Wēpnasfriþuz</SpecificName>
   </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -siege_pack_unpack
+      -siege_bolt_accuracy
+      siege_ram_speed
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/germans/workshop.xml</Actor>
   </VisualActor>
