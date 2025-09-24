@@ -13,6 +13,9 @@
     <GenericName>Fortified Wagon Encampment</GenericName>
     <VisibleClasses datatype="tokens">Fortified</VisibleClasses>
     <Icon>structures/mercenary_camp.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

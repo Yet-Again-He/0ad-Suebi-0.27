@@ -4,6 +4,11 @@
     <Civ>sueb</Civ>
     <SpecificName>Wēpnasfriþuz</SpecificName>
   </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/sueb/siege_ram_covered
+	  </Entities>
+  </Trainer>
   <Researcher>
     <Technologies datatype="tokens">
       -siege_pack_unpack
