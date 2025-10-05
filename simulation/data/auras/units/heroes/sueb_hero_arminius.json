@@ -6,9 +6,12 @@
     "modifications": [
 	    { "value": "Attack/Melee/RepeatTime", "multiply": 1.3 },
 	    { "value": "Attack/Ranged/RepeatTime", "multiply": 1.3 },
-	    { "value": "UnitMotion/WalkSpeed", "multiply": 0.8 }
+	    { "value": "UnitMotion/WalkSpeed", "multiply": 0.8 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": -1 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": -1 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": -1 }
     ],
     "auraName": "Ambusher",
-    "auraDescription": "Enemy Soldiers −30% attack rate and −20% movement speed.",
+    "auraDescription": "Enemy Soldiers −30% attack rate, −20% movement speed, and -1 hack, pierce, and crush resistance.",
 	"overlayIcon": "art/textures/ui/session/auras/fear.png"
 }
